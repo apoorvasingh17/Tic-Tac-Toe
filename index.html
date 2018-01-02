@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe Game</title>
+  <script type="text/javascript" language="javascript" src="index.js"></script>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td><a href="javascript:Move('A')"><img src="blank.jpg" border="0" height="100" width="100" id="A" ></a></td>
+      <td><a href="javascript:Move('B')"><img src="blank.jpg" border="0" height="100" width="100" id="B" ></a></td>
+      <td><a href="javascript:Move('C')"><img src="blank.jpg" border="0" height="100" width="100" id="C" ></a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:Move('D')"><img src="blank.jpg" border="0" height="100" width="100" id="D" ></a></td>
+      <td><a href="javascript:Move('E')"><img src="blank.jpg" border="0" height="100" width="100" id="E" ></a></td>
+      <td><a href="javascript:Move('F')"><img src="blank.jpg" border="0" height="100" width="100" id="F" ></a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:Move('G')"><img src="blank.jpg" border="0" height="100" width="100" id="G" ></a></td>
+      <td><a href="javascript:Move('H')"><img src="blank.jpg" border="0" height="100" width="100" id="H" ></a></td>
+      <td><a href="javascript:Move('I')"><img src="blank.jpg" border="0" height="100" width="100" id="I" ></a></td>
+    </tr>
+  </table>
+  <table>
+    <tr><td><input type="text" size="5" id="player1" value="0"></td><td>Player1</td></tr>
+    <tr><td><input type="text" size="5" id="player2" value="0"></td><td>Computer</td></tr>
+    <tr><td><input type="text" size="5" id="ties" value="0"></td><td>Ties</td></tr>
+  </table>
+  <input type="button" value="Play Again" onclick="playAgain()">
+  &nbsp;&nbsp;&nbsp;
+  <input type="button" value="Game Help" onclick="help()">
+</body>
+</html>
